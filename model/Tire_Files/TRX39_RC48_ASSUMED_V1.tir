@@ -1,0 +1,35 @@
+[HEADER]
+FILE_TYPE                             = 'tir'
+$----------------------------------------------------------------units
+[UNITS]
+LENGTH                                = 'mm'
+FORCE                                 = 'newton'
+ANGLE                                 = 'radians'
+MASS                                  = 'kg'
+TIME                                  = 'second'
+$----------------------------------------------------------------model
+[MODEL]
+VENDER_TIRE_TYPE                      = 'RD-UA'
+$-----------------------------------------------------------dimensions
+$ Type-B path/hardpoint-compatible envelope.  The source RC radial law is
+$ transferred by equal normalized radial deflection:
+$ K_eq = 20 N/mm * 54 mm / 334.15 mm = 3.2320814005686072 N/mm.
+$ All other re_bo_straight_physical tire values remain literal.
+[DIMENSION]
+UNLOADED_RADIUS                       = 334.15
+WIDTH                                 = 215
+RIM_RADIUS                            = 210
+$-------------------------------------------------------------parameter
+[PARAMETER]
+$ Stage39 engineering assumptions; not manufacturer test data.
+$ LATERAL_STIFFNESS=100, CAMBER_STIFFNESS=12, MAX_VIRTUALSTIFF_LONGITUDINAL=400, MAX_VIRTUALSTIFF_LATERAL=25
+RADIAL_STIFFNESS                      = 3.2320814005686072
+RADIAL_DAMPING_RATIO                  = 1.0
+LONGITUDINAL_STIFFNESS                = 8000
+LATERAL_STIFFNESS                     = 100
+CAMBER_STIFFNESS                      = 12
+ROLLING_RESISTANCE                    = 3
+FRICTION_MAX                          = 1.0
+FRICTION_MIN                          = 0.8
+MAX_VIRTUALSTIFF_LONGITUDINAL         = 400
+MAX_VIRTUALSTIFF_LATERAL              = 25
