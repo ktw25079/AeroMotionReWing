@@ -1,0 +1,520 @@
+{
+  "rplt": "TypeB_TEST.rplt",
+  "rplt_sha256": "A547E2AE939F6DA55FC1ACD1679EDE7264D46B74EAB6CF9DB568F7416848BB02",
+  "frame_count": 6601,
+  "duration_s": 66.0,
+  "channel_names": {
+    "time": "TIME",
+    "expected": {
+      "fx_n": "Request/Expressions/TRX28_REQ_RC48_AERO_SANITY/F4(TRX25_EXPR_WING_AERO_FX_N)",
+      "fz_n": "Request/Expressions/TRX28_REQ_RC48_AERO_SANITY/F5(TRX25_EXPR_WING_AERO_FZ_N)",
+      "pitch_moment_n_mm": "Request/Expressions/TRX28_REQ_RC48_AERO_SANITY/F6(TRX28_EXPR_WING_CP_PITCH_MOMENT_N_MM)"
+    },
+    "solver_aero": {
+      "fm": "Force/Translational Force/TRX25_FORCE_REAR_WING_AERO_ON_CHASSIS/FM_Translational",
+      "fx": "Force/Translational Force/TRX25_FORCE_REAR_WING_AERO_ON_CHASSIS/FX_Translational",
+      "fy": "Force/Translational Force/TRX25_FORCE_REAR_WING_AERO_ON_CHASSIS/FY_Translational",
+      "fz": "Force/Translational Force/TRX25_FORCE_REAR_WING_AERO_ON_CHASSIS/FZ_Translational",
+      "tm": "Force/Translational Force/TRX25_FORCE_REAR_WING_AERO_ON_CHASSIS/TM_Translational",
+      "tx": "Force/Translational Force/TRX25_FORCE_REAR_WING_AERO_ON_CHASSIS/TX_Translational",
+      "ty": "Force/Translational Force/TRX25_FORCE_REAR_WING_AERO_ON_CHASSIS/TY_Translational",
+      "tz": "Force/Translational Force/TRX25_FORCE_REAR_WING_AERO_ON_CHASSIS/TZ_Translational"
+    },
+    "hinge_position": "Joints/TRX25_JOINT_REAR_WING_HINGE/Pos1_Relative",
+    "servo_expression": "Expression/TRX25_EXPR_WING_SERVO_TORQUE_N_MM/Value",
+    "solver_servo": {
+      "fm": "Force/Rotational Single(Axial) Force/TRX25_FORCE_REAR_WING_SPEED_SERVO/FM_Rotat_Axial",
+      "fx": "Force/Rotational Single(Axial) Force/TRX25_FORCE_REAR_WING_SPEED_SERVO/FX_Rotat_Axial",
+      "fy": "Force/Rotational Single(Axial) Force/TRX25_FORCE_REAR_WING_SPEED_SERVO/FY_Rotat_Axial",
+      "fz": "Force/Rotational Single(Axial) Force/TRX25_FORCE_REAR_WING_SPEED_SERVO/FZ_Rotat_Axial",
+      "tm": "Force/Rotational Single(Axial) Force/TRX25_FORCE_REAR_WING_SPEED_SERVO/TM_Rotat_Axial",
+      "tx": "Force/Rotational Single(Axial) Force/TRX25_FORCE_REAR_WING_SPEED_SERVO/TX_Rotat_Axial",
+      "ty": "Force/Rotational Single(Axial) Force/TRX25_FORCE_REAR_WING_SPEED_SERVO/TY_Rotat_Axial",
+      "tz": "Force/Rotational Single(Axial) Force/TRX25_FORCE_REAR_WING_SPEED_SERVO/TZ_Rotat_Axial"
+    },
+    "hinge_reaction": {
+      "FM_Reaction_Force": "Joints/TRX25_JOINT_REAR_WING_HINGE/FM_Reaction_Force",
+      "FX_Reaction_Force": "Joints/TRX25_JOINT_REAR_WING_HINGE/FX_Reaction_Force",
+      "FY_Reaction_Force": "Joints/TRX25_JOINT_REAR_WING_HINGE/FY_Reaction_Force",
+      "FZ_Reaction_Force": "Joints/TRX25_JOINT_REAR_WING_HINGE/FZ_Reaction_Force",
+      "TM_Reaction_Force": "Joints/TRX25_JOINT_REAR_WING_HINGE/TM_Reaction_Force",
+      "TX_Reaction_Force": "Joints/TRX25_JOINT_REAR_WING_HINGE/TX_Reaction_Force",
+      "TY_Reaction_Force": "Joints/TRX25_JOINT_REAR_WING_HINGE/TY_Reaction_Force",
+      "TZ_Reaction_Force": "Joints/TRX25_JOINT_REAR_WING_HINGE/TZ_Reaction_Force"
+    }
+  },
+  "solver_aero_stats": {
+    "fm": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 0.0,
+      "last": 2.7304273649016754e-05,
+      "min": 0.0,
+      "min_time_s": 0.0,
+      "max": 1.6010980131595454,
+      "max_time_s": 33.62,
+      "mean": 0.4659339364614017,
+      "peak_to_peak": 1.6010980131595454
+    },
+    "fx": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 0.0,
+      "last": -2.7296424960868528e-05,
+      "min": -1.4700417209863441,
+      "min_time_s": 33.82,
+      "max": 2.210544946552107e-05,
+      "max_time_s": 0.02,
+      "mean": -0.32247451978515806,
+      "peak_to_peak": 1.4700638264358097
+    },
+    "fy": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 0.0,
+      "last": -3.2166986070655864e-22,
+      "min": -2.785315381115261e-16,
+      "min_time_s": 25.93,
+      "max": 3.170207152347615e-16,
+      "max_time_s": 25.86,
+      "mean": 9.685330501127399e-19,
+      "peak_to_peak": 5.955522533462876e-16
+    },
+    "fz": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 0.0,
+      "last": -6.546326115190788e-07,
+      "min": -1.0903057677668737,
+      "min_time_s": 28.09,
+      "max": 0.0,
+      "max_time_s": 0.0,
+      "mean": -0.32352712366633457,
+      "peak_to_peak": 1.0903057677668737
+    },
+    "tm": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 0.0,
+      "last": 0.0,
+      "min": 0.0,
+      "min_time_s": 0.0,
+      "max": 0.0,
+      "max_time_s": 0.0,
+      "mean": 0.0,
+      "peak_to_peak": 0.0
+    },
+    "tx": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 0.0,
+      "last": 0.0,
+      "min": 0.0,
+      "min_time_s": 0.0,
+      "max": 0.0,
+      "max_time_s": 0.0,
+      "mean": 0.0,
+      "peak_to_peak": 0.0
+    },
+    "ty": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 0.0,
+      "last": 0.0,
+      "min": 0.0,
+      "min_time_s": 0.0,
+      "max": 0.0,
+      "max_time_s": 0.0,
+      "mean": 0.0,
+      "peak_to_peak": 0.0
+    },
+    "tz": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 0.0,
+      "last": 0.0,
+      "min": 0.0,
+      "min_time_s": 0.0,
+      "max": 0.0,
+      "max_time_s": 0.0,
+      "mean": 0.0,
+      "peak_to_peak": 0.0
+    }
+  },
+  "solver_servo_stats": {
+    "fm": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 0.0,
+      "last": 0.0,
+      "min": 0.0,
+      "min_time_s": 0.0,
+      "max": 0.0,
+      "max_time_s": 0.0,
+      "mean": 0.0,
+      "peak_to_peak": 0.0
+    },
+    "fx": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 0.0,
+      "last": 0.0,
+      "min": 0.0,
+      "min_time_s": 0.0,
+      "max": 0.0,
+      "max_time_s": 0.0,
+      "mean": 0.0,
+      "peak_to_peak": 0.0
+    },
+    "fy": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 0.0,
+      "last": 0.0,
+      "min": 0.0,
+      "min_time_s": 0.0,
+      "max": 0.0,
+      "max_time_s": 0.0,
+      "mean": 0.0,
+      "peak_to_peak": 0.0
+    },
+    "fz": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 0.0,
+      "last": 0.0,
+      "min": 0.0,
+      "min_time_s": 0.0,
+      "max": 0.0,
+      "max_time_s": 0.0,
+      "mean": 0.0,
+      "peak_to_peak": 0.0
+    },
+    "tm": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 2.3980817331903377e-12,
+      "last": 424.61202730789677,
+      "min": 2.3980817331903377e-12,
+      "min_time_s": 0.0,
+      "max": 2984.5130209103077,
+      "max_time_s": 59.75,
+      "mean": 657.5045363139747,
+      "peak_to_peak": 2984.5130209103054
+    },
+    "tx": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 7.703719777548943e-34,
+      "last": -1.6512846320350383e-14,
+      "min": -4.250420545040545e-13,
+      "min_time_s": 59.31,
+      "max": 3.3744762626547464e-13,
+      "max_time_s": 59.32,
+      "mean": 8.975318420033618e-16,
+      "peak_to_peak": 7.624896807695292e-13
+    },
+    "ty": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": -4.930380657631324e-32,
+      "last": 5.551115123125783e-17,
+      "min": -5.329070518200751e-15,
+      "min_time_s": 21.46,
+      "max": 3.552713678800501e-15,
+      "max_time_s": 21.54,
+      "mean": 2.679212279531668e-17,
+      "peak_to_peak": 8.881784197001252e-15
+    },
+    "tz": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": -2.3980817331903377e-12,
+      "last": 424.61202730789677,
+      "min": -1256.6370614359191,
+      "min_time_s": 55.99,
+      "max": 2984.5130209103077,
+      "max_time_s": 59.75,
+      "mean": 512.306522971452,
+      "peak_to_peak": 4241.150082346227
+    }
+  },
+  "comparisons": {
+    "fx": {
+      "sample_count": 6601,
+      "maximum_absolute_error": 0.00023577244934885888,
+      "maximum_normalized_error": 0.06936008310539894,
+      "rms_error": 2.390190782789293e-05,
+      "worst_time_s": 33.06,
+      "worst_actual": -0.39901692150404877,
+      "worst_expected": -0.39925269395339763,
+      "abs_tolerance": 0.003,
+      "rel_tolerance": 0.001,
+      "passed": true,
+      "actual_to_expression_sign": 1.0
+    },
+    "fz": {
+      "sample_count": 6601,
+      "maximum_absolute_error": 0.003557368178707554,
+      "maximum_normalized_error": 1.0134738313768659,
+      "rms_error": 0.00039893366881563533,
+      "worst_time_s": 24.38,
+      "worst_actual": -0.5065166648870031,
+      "worst_expected": -0.5100740330657106,
+      "abs_tolerance": 0.003,
+      "rel_tolerance": 0.001,
+      "passed": false,
+      "actual_to_expression_sign": 1.0
+    },
+    "force_magnitude": {
+      "sample_count": 6601,
+      "maximum_absolute_error": 0.0,
+      "maximum_normalized_error": 0.0,
+      "rms_error": 0.0,
+      "worst_time_s": 0.0,
+      "worst_actual": 0.0,
+      "worst_expected": 0.0,
+      "abs_tolerance": 5e-05,
+      "rel_tolerance": 2e-05,
+      "passed": true
+    },
+    "cp_pitch_moment": {
+      "sample_count": 6601,
+      "maximum_absolute_error": 0.0394832972989434,
+      "maximum_normalized_error": 0.032476184428408265,
+      "rms_error": 0.0042552903515638224,
+      "worst_time_s": 33.06,
+      "worst_actual": -215.72209688407605,
+      "worst_expected": -215.761580181375,
+      "abs_tolerance": 1.0,
+      "rel_tolerance": 0.001,
+      "passed": true
+    },
+    "hinge_position": {
+      "sample_count": 6601,
+      "maximum_absolute_error": 7.771561172376096e-16,
+      "maximum_normalized_error": 5.6861527554150905e-11,
+      "rms_error": 1.5497977377815437e-16,
+      "worst_time_s": 39.51,
+      "worst_actual": 0.5833760458664253,
+      "worst_expected": 0.5833760458664261,
+      "abs_tolerance": 2e-06,
+      "rel_tolerance": 2e-05,
+      "passed": true,
+      "actual_to_expression_sign": 1.0
+    },
+    "servo_expression_output_vs_solver_torque_diagnostic_only": {
+      "sample_count": 6601,
+      "maximum_absolute_error": 2510.208821954088,
+      "maximum_normalized_error": 25035.62303228019,
+      "rms_error": 530.2026937883136,
+      "worst_time_s": 37.68,
+      "worst_actual": 3.0653009177473156,
+      "worst_expected": 2513.274122871835,
+      "abs_tolerance": 0.05,
+      "rel_tolerance": 2e-05,
+      "passed": false
+    }
+  },
+  "sign_candidates": {
+    "fx": {
+      "1": {
+        "sample_count": 6601,
+        "maximum_absolute_error": 0.00023577244934885888,
+        "maximum_normalized_error": 0.06936008310539894,
+        "rms_error": 2.390190782789293e-05,
+        "worst_time_s": 33.06,
+        "worst_actual": -0.39901692150404877,
+        "worst_expected": -0.39925269395339763,
+        "abs_tolerance": 0.003,
+        "rel_tolerance": 0.001,
+        "passed": true,
+        "actual_to_expression_sign": 1.0
+      },
+      "-1": {
+        "sample_count": 6601,
+        "maximum_absolute_error": 2.9399204539846195,
+        "maximum_normalized_error": 657.6956008937743,
+        "rms_error": 0.8279470909239546,
+        "worst_time_s": 33.8,
+        "worst_actual": 1.4700321090629458,
+        "worst_expected": -1.4698883449216735,
+        "abs_tolerance": 0.003,
+        "rel_tolerance": 0.001,
+        "passed": false,
+        "actual_to_expression_sign": -1.0
+      }
+    },
+    "fz": {
+      "1": {
+        "sample_count": 6601,
+        "maximum_absolute_error": 0.003557368178707554,
+        "maximum_normalized_error": 1.0134738313768659,
+        "rms_error": 0.00039893366881563533,
+        "worst_time_s": 24.38,
+        "worst_actual": -0.5065166648870031,
+        "worst_expected": -0.5100740330657106,
+        "abs_tolerance": 0.003,
+        "rel_tolerance": 0.001,
+        "passed": false,
+        "actual_to_expression_sign": 1.0
+      },
+      "-1": {
+        "sample_count": 6601,
+        "maximum_absolute_error": 2.1806746835028417,
+        "maximum_normalized_error": 533.0888389814468,
+        "rms_error": 0.8085738225326747,
+        "worst_time_s": 28.09,
+        "worst_actual": 1.0903057677668737,
+        "worst_expected": -1.0901905850510838,
+        "abs_tolerance": 0.003,
+        "rel_tolerance": 0.001,
+        "passed": false,
+        "actual_to_expression_sign": -1.0
+      }
+    },
+    "hinge_position": {
+      "1": {
+        "sample_count": 6601,
+        "maximum_absolute_error": 7.771561172376096e-16,
+        "maximum_normalized_error": 5.6861527554150905e-11,
+        "rms_error": 1.5497977377815437e-16,
+        "worst_time_s": 39.51,
+        "worst_actual": 0.5833760458664253,
+        "worst_expected": 0.5833760458664261,
+        "abs_tolerance": 2e-06,
+        "rel_tolerance": 2e-05,
+        "passed": true,
+        "actual_to_expression_sign": 1.0
+      },
+      "-1": {
+        "sample_count": 6601,
+        "maximum_absolute_error": 2.9294298513461428,
+        "maximum_normalized_error": 93609.05949325021,
+        "rms_error": 1.3107690154118972,
+        "worst_time_s": 63.42,
+        "worst_actual": -1.4647149256730712,
+        "worst_expected": 1.4647149256730714,
+        "abs_tolerance": 2e-06,
+        "rel_tolerance": 2e-05,
+        "passed": false,
+        "actual_to_expression_sign": -1.0
+      }
+    }
+  },
+  "hinge_reaction_stats": {
+    "FM_Reaction_Force": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 3854.0664978357145,
+      "last": 1.2124891477288904,
+      "min": 0.17879565781930684,
+      "min_time_s": 58.49,
+      "max": 3854.0664978357145,
+      "max_time_s": 0.0,
+      "mean": 1.7757362561837549,
+      "peak_to_peak": 3853.8877021778953
+    },
+    "FX_Reaction_Force": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": -3689.766225316676,
+      "last": 0.027203106531890026,
+      "min": -3689.766225316676,
+      "min_time_s": 0.0,
+      "max": 1.9193033833100983,
+      "max_time_s": 29.01,
+      "mean": -0.5704705189808438,
+      "peak_to_peak": 3691.685528699986
+    },
+    "FY_Reaction_Force": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 1113.2422862205754,
+      "last": 1.2120353305782052,
+      "min": -0.8230469177393578,
+      "min_time_s": 0.06,
+      "max": 1113.2422862205754,
+      "max_time_s": 0.0,
+      "mean": 1.3130033110856125,
+      "peak_to_peak": 1114.0653331383146
+    },
+    "FZ_Reaction_Force": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 12.057546282974537,
+      "last": -0.018981090209109177,
+      "min": -0.9305514731904094,
+      "min_time_s": 62.96,
+      "max": 12.057546282974537,
+      "max_time_s": 0.0,
+      "mean": 0.055335245428667024,
+      "peak_to_peak": 12.988097756164946
+    },
+    "TM_Reaction_Force": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 5755.9511162634335,
+      "last": 7.289359785523835,
+      "min": 0.0003420505888043097,
+      "min_time_s": 3.56,
+      "max": 5755.9511162634335,
+      "max_time_s": 0.0,
+      "mean": 76.76361714170177,
+      "peak_to_peak": 5755.950774212844
+    },
+    "TX_Reaction_Force": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": -1463.5290939687752,
+      "last": -4.610231729127222,
+      "min": -1463.5290939687752,
+      "min_time_s": 0.0,
+      "max": 318.88874653894646,
+      "max_time_s": 62.4,
+      "mean": 3.5425065965433338,
+      "peak_to_peak": 1782.4178405077216
+    },
+    "TY_Reaction_Force": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": -5566.781461843208,
+      "last": 5.646284573643158,
+      "min": -5566.781461843208,
+      "min_time_s": 0.0,
+      "max": 402.1873759819579,
+      "max_time_s": 49.58,
+      "mean": -25.702851707041845,
+      "peak_to_peak": 5968.968837825166
+    },
+    "TZ_Reaction_Force": {
+      "count": 6601,
+      "finite_count": 6601,
+      "first": 1.1102230246251565e-16,
+      "last": 1.3183898417423734e-16,
+      "min": -2.5979218776228663e-14,
+      "min_time_s": 25.13,
+      "max": 2.6700863742235015e-14,
+      "max_time_s": 26.900000000000002,
+      "mean": 2.2406808668051325e-17,
+      "peak_to_peak": 5.268008251846368e-14
+    }
+  },
+  "notes": {
+    "servo_comparison": "The solver TM channel is the authoritative applied axial-torque output. The separately sampled Expression/Value channel can be asynchronous during rapid target changes, so its pointwise comparison is diagnostic and is not an acceptance gate.",
+    "translational_torque": "TM/TX/TY/TZ of the translational-force entity are direct-couple outputs and correctly remain zero. The CP pitching moment is r cross F about the audited composite CG."
+  },
+  "checks": {
+    "solver_fx_matches_applied_expression": true,
+    "solver_fz_matches_applied_expression": false,
+    "solver_force_magnitude_matches_components": true,
+    "cp_pitch_moment_from_solver_force_matches_diagnostic_expression": true,
+    "hinge_relative_angle_matches_wing_angle_expression": true,
+    "solver_servo_torque_output_all_finite": true,
+    "solver_servo_activates_during_wing_transitions": true,
+    "all_hinge_reaction_channels_finite": true,
+    "aero_force_below_half_vehicle_weight": true,
+    "servo_torque_within_3Nm_limit": true
+  },
+  "passed": false
+}

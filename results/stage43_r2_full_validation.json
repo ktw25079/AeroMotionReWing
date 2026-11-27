@@ -1,0 +1,311 @@
+{
+  "rplt": "TypeB_TEST.rplt",
+  "rplt_sha256": "A547E2AE939F6DA55FC1ACD1679EDE7264D46B74EAB6CF9DB568F7416848BB02",
+  "rplt_bytes": 185014788,
+  "expected_duration_s": 66.0,
+  "row_count": 6601,
+  "channel_names": {
+    "time_s": "TIME",
+    "speed_kph": "Request/Expressions/TRX43_REQ_ACTIVE_WING_PROOF/F1(Ex_mea_chassis_vx)",
+    "target_aoa_deg": "Request/Expressions/TRX43_REQ_ACTIVE_WING_PROOF/F2(TRX27_EXPR_WING_TARGET_AOA_DEG)",
+    "actual_aoa_deg": "Request/Expressions/TRX43_REQ_ACTIVE_WING_PROOF/F3(TRX27_EXPR_WING_ACTUAL_AOA_DEG)",
+    "tracking_error_deg": "Request/Expressions/TRX43_REQ_ACTIVE_WING_PROOF/F4(TRX43_EXPR_WING_TRACKING_ERROR_DEG)",
+    "drag_n": "Request/Expressions/TRX43_REQ_ACTIVE_WING_PROOF/F5(TRX43_EXPR_REAR_WING_DRAG_N)",
+    "downforce_n": "Request/Expressions/TRX43_REQ_ACTIVE_WING_PROOF/F6(TRX43_EXPR_REAR_WING_DOWNFORCE_N)",
+    "servo_torque_n_mm": "Request/Expressions/TRX43_REQ_ACTIVE_WING_HEALTH/F1(TRX25_EXPR_WING_SERVO_TORQUE_N_MM)",
+    "actual_rate_deg_s": "Request/Expressions/TRX43_REQ_ACTIVE_WING_HEALTH/F2(TRX43_EXPR_WING_ACTUAL_RATE_DEG_S)",
+    "range_violation_deg": "Request/Expressions/TRX43_REQ_ACTIVE_WING_HEALTH/F3(TRX43_EXPR_WING_RANGE_VIOLATION_DEG)",
+    "dynamic_pressure_pa": "Request/Expressions/TRX43_REQ_ACTIVE_WING_HEALTH/F4(TRX28_EXPR_WING_DYNAMIC_PRESSURE_PA)",
+    "cd": "Request/Expressions/TRX43_REQ_ACTIVE_WING_HEALTH/F5(TRX25_EXPR_WING_CD)",
+    "cl": "Request/Expressions/TRX43_REQ_ACTIVE_WING_HEALTH/F6(TRX25_EXPR_WING_CL_DOWN)",
+    "startup_fraction": "Request/Expressions/TRX27_REQ_WING_MODE_MAP/F1(TRX27_EXPR_WING_STARTUP_VALID_FRACTION)",
+    "corner_fraction": "Request/Expressions/TRX27_REQ_WING_MODE_MAP/F2(TRX27_EXPR_WING_CORNER_FRACTION)",
+    "brake_fraction": "Request/Expressions/TRX27_REQ_WING_MODE_MAP/F3(TRX27_EXPR_WING_BRAKE_FRACTION)",
+    "park_fraction": "Request/Expressions/TRX27_REQ_WING_MODE_MAP/F4(TRX27_EXPR_WING_PARK_FRACTION)",
+    "driver_brake_raw": "VariableEq/VE_brake/VARVAL",
+    "measured_ax_g": "Request/Expressions/ExRq_chassis_acc/F1(Ex_mea_chassis_accx)",
+    "brake_command_fraction": "Expression/TRX27_EXPR_WING_BRAKE_COMMAND_FRACTION/Value",
+    "longitudinal_brake_pct": "Expression/TRX28_EXPR_B_BRAKE_PCT/Value"
+  },
+  "channel_lengths": {
+    "time_s": 6601,
+    "speed_kph": 6601,
+    "target_aoa_deg": 6601,
+    "actual_aoa_deg": 6601,
+    "tracking_error_deg": 6601,
+    "drag_n": 6601,
+    "downforce_n": 6601,
+    "servo_torque_n_mm": 6601,
+    "actual_rate_deg_s": 6601,
+    "range_violation_deg": 6601,
+    "dynamic_pressure_pa": 6601,
+    "cd": 6601,
+    "cl": 6601,
+    "startup_fraction": 6601,
+    "corner_fraction": 6601,
+    "brake_fraction": 6601,
+    "park_fraction": 6601,
+    "driver_brake_raw": 6601,
+    "measured_ax_g": 6601,
+    "brake_command_fraction": 6601,
+    "longitudinal_brake_pct": 6601
+  },
+  "stats": {
+    "speed_kph": {
+      "count": 6601,
+      "min": -0.21448737826552305,
+      "max": 26.80543022289618,
+      "mean": 15.561382810691114,
+      "first": 0.0,
+      "last": 0.09917874215668601,
+      "max_abs": 26.80543022289618,
+      "all_finite": true
+    },
+    "target_aoa_deg": {
+      "count": 6601,
+      "min": 5.0,
+      "max": 90.0,
+      "mean": 37.661784298839905,
+      "first": 14.999999999999996,
+      "last": 90.0,
+      "max_abs": 90.0,
+      "all_finite": true
+    },
+    "actual_aoa_deg": {
+      "count": 6601,
+      "min": 4.556265002152233,
+      "max": 88.92198343088505,
+      "mean": 34.60725762048215,
+      "first": 15.000000000000004,
+      "last": 88.87362208621785,
+      "max_abs": 88.92198343088505,
+      "all_finite": true
+    },
+    "tracking_error_deg": {
+      "count": 6601,
+      "min": -19.09510272367673,
+      "max": 59.408275480661516,
+      "mean": 3.054526678357753,
+      "first": -7.105427357601002e-15,
+      "last": 1.1263779137821501,
+      "max_abs": 59.408275480661516,
+      "all_finite": true
+    },
+    "drag_n": {
+      "count": 6601,
+      "min": -2.21029533765954e-05,
+      "max": 1.4698981801300468,
+      "mean": 0.3224741409165597,
+      "first": 0.0,
+      "last": 2.7296424931718448e-05,
+      "max_abs": 1.4698981801300468,
+      "all_finite": true
+    },
+    "downforce_n": {
+      "count": 6601,
+      "min": 0.0,
+      "max": 1.0903054145613256,
+      "mean": 0.3235270025512341,
+      "first": 0.0,
+      "last": 6.546266899926039e-07,
+      "max_abs": 1.0903054145613256,
+      "all_finite": true
+    },
+    "servo_torque_n_mm": {
+      "count": 6601,
+      "min": -1256.6370614359173,
+      "max": 2984.513020910304,
+      "mean": 641.506554440837,
+      "first": -2.398081733190338e-12,
+      "last": 424.63446949245383,
+      "max_abs": 2984.513020910304,
+      "all_finite": true
+    },
+    "actual_rate_deg_s": {
+      "count": 6601,
+      "min": -57.67711528193027,
+      "max": 81.04917289544429,
+      "mean": 1.1374866741525627,
+      "first": 0.0,
+      "last": -0.027846407229456707,
+      "max_abs": 81.04917289544429,
+      "all_finite": true
+    },
+    "range_violation_deg": {
+      "count": 6601,
+      "min": 0.0,
+      "max": 0.4437349978477673,
+      "mean": 0.002994560261772426,
+      "first": 0.0,
+      "last": 0.0,
+      "max_abs": 0.4437349978477673,
+      "all_finite": true
+    },
+    "dynamic_pressure_pa": {
+      "count": 6601,
+      "min": 0.0,
+      "max": 33.9583558856995,
+      "mean": 13.709391556075284,
+      "first": 0.0,
+      "last": 0.0004648772394804572,
+      "max_abs": 33.9583558856995,
+      "all_finite": true
+    },
+    "cd": {
+      "count": 6601,
+      "min": 0.1278437684530714,
+      "max": 1.1197325866080179,
+      "mean": 0.4968586423022874,
+      "first": 0.2022697898024002,
+      "last": 1.1197080158728276,
+      "max_abs": 1.1197325866080179,
+      "all_finite": true
+    },
+    "cl": {
+      "count": 6601,
+      "min": 0.0244536480331102,
+      "max": 0.6499988779424688,
+      "mean": 0.4291972723572405,
+      "first": 0.325,
+      "last": 0.025550119982551238,
+      "max_abs": 0.6499988779424688,
+      "all_finite": true
+    },
+    "startup_fraction": {
+      "count": 6601,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.9976518709286472,
+      "first": 0.0,
+      "last": 1.0,
+      "max_abs": 1.0,
+      "all_finite": true
+    },
+    "corner_fraction": {
+      "count": 6601,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.541274792921461,
+      "first": 0.0,
+      "last": 0.0,
+      "max_abs": 1.0,
+      "all_finite": true
+    },
+    "brake_fraction": {
+      "count": 6601,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.14439421773663577,
+      "first": 0.0,
+      "last": 1.0,
+      "max_abs": 1.0,
+      "all_finite": true
+    },
+    "park_fraction": {
+      "count": 6601,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.05348484947738919,
+      "first": 0.0,
+      "last": 1.0,
+      "max_abs": 1.0,
+      "all_finite": true
+    },
+    "driver_brake_raw": {
+      "count": 6601,
+      "min": 0.0,
+      "max": 100.12122401526088,
+      "mean": 87.38665930207993,
+      "first": 0.0,
+      "last": 0.9922873516598009,
+      "max_abs": 100.12122401526088,
+      "all_finite": true
+    },
+    "measured_ax_g": {
+      "count": 6601,
+      "min": -1030.0571877324198,
+      "max": 0.7698756165795555,
+      "mean": -0.1631702370164727,
+      "first": -1030.0571877324198,
+      "last": 0.0058688667674973724,
+      "max_abs": 1030.0571877324198,
+      "all_finite": true
+    },
+    "brake_command_fraction": {
+      "count": 6601,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.10883716705518971,
+      "first": 0.0,
+      "last": 0.0,
+      "max_abs": 1.0,
+      "all_finite": true
+    },
+    "longitudinal_brake_pct": {
+      "count": 6601,
+      "min": 0.0,
+      "max": 100.0,
+      "mean": 7.0264398627404,
+      "first": 0.0,
+      "last": 1.012450196382145,
+      "max_abs": 100.0,
+      "all_finite": true
+    }
+  },
+  "mode_occupancy": {
+    "corner_fraction": {
+      "fraction_over_0p5": 0.5390092410240872,
+      "fraction_over_0p9": 0.5123466141493713
+    },
+    "brake_fraction": {
+      "fraction_over_0p5": 0.14240266626268747,
+      "fraction_over_0p9": 0.1327071655809726
+    },
+    "park_fraction": {
+      "fraction_over_0p5": 0.053628238145735495,
+      "fraction_over_0p9": 0.04847750340857446
+    }
+  },
+  "text_audit": {
+    "message_success": true,
+    "forbidden_tokens_absent": true,
+    "forbidden_tokens": [
+      "[C0249]",
+      "The expression function (VX) is not available",
+      "RecurDyn Solver has encountered a problem",
+      "INTERRUPTED BY USER",
+      "NaN",
+      "Infinity"
+    ],
+    "stable_aero_force_exported": true,
+    "servo_force_exported": true,
+    "regularizer_force_exported": true,
+    "unsafe_force_not_exported": true,
+    "invalid_motion_vx_absent": true,
+    "files": {
+      "msg": "TypeB_TEST.msg",
+      "log": "TypeB_TEST.log",
+      "rmd": "TypeB_TEST.rmd"
+    }
+  },
+  "checks": {
+    "all_channels_same_length": true,
+    "time_starts_at_zero": true,
+    "duration_matches": true,
+    "all_values_finite": true,
+    "actual_aoa_inside_5_to_90_deg": true,
+    "no_360deg_rotation": true,
+    "range_violation_below_0p5deg": true,
+    "servo_torque_within_limit": true,
+    "drag_direction_consistent_with_near_zero_rollback": true,
+    "downforce_nonnegative": true,
+    "message_success": true,
+    "forbidden_solver_tokens_absent": true,
+    "stable_aero_force_exported": true,
+    "servo_force_exported": true,
+    "regularizer_force_exported": true,
+    "unsafe_force_not_exported": true,
+    "invalid_motion_vx_absent": true
+  },
+  "passed": true
+}

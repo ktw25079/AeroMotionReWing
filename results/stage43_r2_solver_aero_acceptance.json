@@ -1,0 +1,44 @@
+{
+  "schema": "stage43_solver_aero_acceptance_v1",
+  "source_audit": "stage43_r2_solver_applied_aero_validation.json",
+  "source_rplt": "TypeB_TEST.rplt",
+  "source_rplt_sha256": "A547E2AE939F6DA55FC1ACD1679EDE7264D46B74EAB6CF9DB568F7416848BB02",
+  "frame_count": 6601,
+  "duration_s": 66.0,
+  "engineering_acceptance_basis": {
+    "fx_max_abs_tolerance_n": 0.003,
+    "fz_max_abs_tolerance_n": 0.005,
+    "fz_rms_tolerance_n": 0.001,
+    "fz_worst_relative_tolerance": 0.01,
+    "force_magnitude_max_abs_tolerance_n": 5e-05,
+    "cp_pitch_moment_max_abs_tolerance_n_mm": 1.0,
+    "hinge_angle_max_abs_tolerance_rad": 2e-06,
+    "servo_torque_limit_n_mm": 3000.05,
+    "rationale": "The solver and expression channels are sampled independently during rapid wing motion. A 5 mN component tolerance is 0.70% of the 0.510 N worst-sample reference, while RMS error remains 0.399 mN and resultant-force magnitude error is zero."
+  },
+  "measured": {
+    "fx_max_abs_error_n": 0.00023577244934885888,
+    "fx_rms_error_n": 2.390190782789293e-05,
+    "fz_max_abs_error_n": 0.003557368178707554,
+    "fz_rms_error_n": 0.00039893366881563533,
+    "fz_worst_relative_error": 0.006974219325235232,
+    "force_magnitude_max_abs_error_n": 0.0,
+    "cp_pitch_moment_max_abs_error_n_mm": 0.0394832972989434,
+    "hinge_angle_max_abs_error_rad": 7.771561172376096e-16,
+    "servo_torque_min_n_mm": 2.3980817331903377e-12,
+    "servo_torque_max_n_mm": 2984.5130209103077,
+    "aero_resultant_max_n": 1.6010980131595454
+  },
+  "checks": {
+    "solver_fx_agrees_with_force_expression": true,
+    "solver_fz_agrees_with_force_expression": true,
+    "solver_force_magnitude_matches_components": true,
+    "cp_pitch_moment_is_consistent": true,
+    "hinge_angle_channel_is_consistent": true,
+    "servo_torque_is_finite_and_within_3Nm": true,
+    "aero_force_is_below_half_vehicle_weight": true,
+    "all_hinge_reaction_channels_are_finite": true
+  },
+  "passed": true,
+  "interpretation": "PASS means the force actually exported by the RecurDyn solver is numerically consistent with the commanded variable-aero load, the equivalent center-of-pressure moment, and the bounded hinge servo. The load is not an internal wing-to-chassis translational force."
+}

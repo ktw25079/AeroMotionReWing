@@ -1,0 +1,590 @@
+﻿
+
+
+_________________________________________________________________________________________________
+
+                                            RecurDyn
+
+                              Recursive Dynamics Analysis Program
+_________________________________________________________________________________________________
+
+                                      RecurDyn Solver 2023
+                                    Windows 64 Bit 10.1.11516.0
+
+                                    Build Date : Sep 26 2022
+                                    Build Time :    01:04:02
+
+                                    Copyright (C) 1997 - 2022
+
+                                       Function Bay, Inc.
+_________________________________________________________________________________________________
+
+RECURDYN/CONVERTER PROCESSING
+_________________________________________________________________________________________________
+
+DLL Location
+[local path omitted]
+
+[local path omitted]
+_________________________________________________________________________________________________
+[local path omitted]
+_________________________________________________________________________________________________
+SimResult\TypeB_TEST.rme File read failure
+_________________________________________________________________________________________________
+
+CONVERTING TIME INFORMATION
+CPU Time = 0.2 SECOND (0 hr. 0 min 0.2 sec.)
+_________________________________________________________________________________________________
+
+CONVERT-PROCESSING IS SUCCESSFULLY FINISHED
+_________________________________________________________________________________________________
+
+RECURDYN/SOLVER PROCESSING
+_________________________________________________________________________________________________
+-------------------------------------------------------------------------------------------------
+
+    Using STEP5  type step function
+    nMaxConvergenceHybrid =            3
+    nMaxConvergenceGAlpha =            3
+    nMaxConvergenceTrackGAlpha =            3
+    Set AUTO Linear Solver For MBD          -1        1000
+    Symbolic Factorized Every Jacobian            1
+    Using MKL Pardiso for MBD           1
+    Make CSR3 Once for MBD           0
+    FDM delta Ratio =    1.00000000000000     
+    flag Joint Friction Modification =            1
+    Using Advanced Control for Integrator Failure
+    Using quaternion integration is enable
+    Using quaternion integration with Wp           0
+    Using GeoContact_dyn_Jac66           1
+    Using GeoContact_FFlexTorque           0
+    Using iGeoContact_JacSparse           4
+    Predict var with vardot =            1
+    Use AngleLimit in GAlpha =    30.0000000000000     
+    Use Stable EulerAngle Change            1
+ 
+ ========================================================================
+ ** RFLEX OPTIMIZATION COMPUTING OPTION IS USED           27
+ ========================================================================
+ 
+ 
+ ========================================================================
+ ** USED RELATIVE VELOCITY DIRECTLY FOR SLIP SENSOR SIGN
+ ========================================================================
+ 
+    Using Simulation Status in rplt
+  Bushing/Matrix Force Rotation using Quaternion
+ >> Write Process Message
+    start time =   0.000000000000000E+000
+    end time
+    maximum message iteration =          100
+ 
+ ========================================================================
+ ** AVERAGE CONTACT FORCE IS USED ONLY FOR CONE SHAPED PRIMITIVE 3D CONTACTS.
+ ========================================================================
+ 
+    Using Ao in FFlex Body of ADV. Bushing
+    Improvement Pre Analysis Accuracy           1
+ ** Used New RBE3 Constraint (Rotation)
+    Using Inboard Postion in Case of Fflex Force Connection
+    Write Additional Output(RPLT) When Simulation Stopped by Step Size Too Small
+ 
+ ========================================================================
+ *** Solver IF Windows 64 Bit RDLL
+ ========================================================================
+ Solver Core Dll Location
+[local path omitted]
+ ========================================================================
+ Cuser Dll Location
+[local path omitted]
+ libifcoremd Dll is loaded
+[local path omitted]
+ ========================================================================
+ dformd Dll is not loaded
+ ========================================================================
+ dforrt Dll is not loaded
+ ========================================================================
+ ========================================================================
+ *** Number Of Thread =           4
+ ========================================================================
+ 
+ ========================================================================
+ >> THE SIZE OF USED INBODY ARRAY                  =               65
+ ------------------------------------------------------------------------
+ >> THE SIZE OF USED JOINT ARRAY                   =              640
+ ------------------------------------------------------------------------
+ >> THE SIZE OF USED JOINTIV ARRAY                 =                0
+ ------------------------------------------------------------------------
+ >> THE SIZE OF USED EXTPARIV ARRAY                =                0
+ ------------------------------------------------------------------------
+ >> THE SIZE OF USED SENSOR ARRAY                  =                0
+ ------------------------------------------------------------------------
+ >> THE SIZE OF USED SENSOR SURFACE ARRAY          =                0
+ ------------------------------------------------------------------------
+ >> THE SIZE OF USED CUTJOINT ARRAY                =               48
+ ------------------------------------------------------------------------
+ >> THE SIZE OF USED FLEXBODY ARRAY                =                0
+ ========================================================================
+  ON Weighting Factor in NFLEX SETTING(default from V9R1)
+ ========================================================================
+ >> THE SIZE OF USED N120 ARRAY                    =           226412
+ ------------------------------------------------------------------------
+ >> THE SIZE OF USED IPN17 ARRAY                   =            12818
+ ------------------------------------------------------------------------
+ >> THE SIZE OF USED IPN18 ARRAY                   =            56195
+ ========================================================================
+ ========================================================================
+ >> THE SIZE OF USED N90 ARRAY                     =           449936
+ ------------------------------------------------------------------------
+ >> THE SIZE OF USED N90n1 ARRAY                   =           294912
+ ------------------------------------------------------------------------
+ >> THE SIZE OF USED N90n2 ARRAY                   =             1000
+ ------------------------------------------------------------------------
+ >> THE SIZE OF USED N90n3 ARRAY                   =             1000
+ ========================================================================
+ ========================================================================
+ >> THE SIZE OF USED RBUSA ARRAY                   =          1838446
+ ------------------------------------------------------------------------
+ >> THE SIZE OF USED RBUSB ARRAY                   =          1417443
+ ------------------------------------------------------------------------
+ >> THE SIZE OF USED RBUS ARRAY                    =          3255889
+ ------------------------------------------------------------------------
+ >> THE SIZE OF USED IBUS ARRAY                    =            78982
+ ------------------------------------------------------------------------
+ >> THE SIZE OF USED MGRBUS ARRAY                  =              769
+ ------------------------------------------------------------------------
+ >> THE SIZE OF USED OBUS ARRAY                    =           139593
+ ========================================================================
+ 
+ ========================================================================
+ ** LICENSE FEATURES
+ ========================================================================
+ License is checked
+    checkout   MBD_SOL
+    checkout   TIRE_SOL
+ ========================================================================
+ 
+ >>> SUCCESSFULLY BUILT THE RD/SOLVER STRUCTURE
+
+
+                            JOINT INFORMATION 
+ ========================================================================
+           JOINT ID      ACTION MARKER   BASE MARKER    TYPE
+ ========================================================================
+       100000001               3              1       FLOATING   
+               6              49             21       REVOLUTE   
+              15              66             63       REVOLUTE   
+              16              91             61         FIXED    
+              13              83             89     TRANSLATIONAL
+              11             492             86         BALL     
+              69             458            489      UNIVERSAL   
+              62             482            456       REVOLUTE   
+               7              39            486         FIXED    
+              12             538             87         BALL     
+              70             497            535      UNIVERSAL   
+              67             529            496       REVOLUTE   
+               8              34            532         FIXED    
+              14              80             90       REVOLUTE   
+              18              72             64      CYLINDRICAL 
+              35             125            103      UNIVERSAL   
+              21             128            124         BALL     
+               3             303            134         BALL     
+              55             273            301      UNIVERSAL   
+              24             155            129       REVOLUTE   
+               1              42            157         FIXED    
+              36             175            104      UNIVERSAL   
+              29             165            174         BALL     
+               4             308            170         BALL     
+              56             286            305      UNIVERSAL   
+              31             196            167       REVOLUTE   
+               2              45            197         FIXED    
+              37             205            105      UNIVERSAL   
+              38             209            106      UNIVERSAL   
+              39             145            107       REVOLUTE   
+              40             181            108       REVOLUTE   
+              41             161            109      UNIVERSAL   
+              42             201            110      UNIVERSAL   
+              43             141            111      UNIVERSAL   
+              23             152            140      CYLINDRICAL 
+              44             192            112      UNIVERSAL   
+              32             184            189      CYLINDRICAL 
+              73             450            434       REVOLUTE   
+              77             479            451      UNIVERSAL   
+               9             254            480         BALL     
+              49             223            251      UNIVERSAL   
+              61             462            477      CYLINDRICAL 
+              74             502            435       REVOLUTE   
+              78             519            503      UNIVERSAL   
+              10             260            520         BALL     
+              50             236            256      UNIVERSAL   
+              68             522            514      CYLINDRICAL 
+              75             467            436       REVOLUTE   
+              76             509            437       REVOLUTE   
+       100000002              13              1       FLOATING   
+       100000003              38              1       FLOATING   
+       100000004              39              1       FLOATING   
+       100000005              40              1       FLOATING   
+       100000006              42              1       FLOATING   
+       100000007              43              1       FLOATING   
+       100000008              44              1       FLOATING   
+       100000009              45              1       FLOATING   
+       100000010              51              1       FLOATING   
+       100000011              52              1       FLOATING   
+       100000012              53              1       FLOATING   
+       100000013              55              1       FLOATING   
+       100000014              56              1       FLOATING   
+       100000015              57              1       FLOATING   
+       100000016              58              1       FLOATING   
+ ========================================================================
+ 
+                          CONSTRAINT INFORMATION
+ ========================================================================
+         CONSTRAINT ID   ACTION MARKER   BASE MARKER    TYPE
+ ========================================================================
+              80             439            463       SPHERICAL    
+              79             438            525       SPHERICAL    
+              59             448            455       SPHERICAL    
+              60             466            457       SPHERICAL    
+              65             508            494       SPHERICAL    
+              66             500            495       SPHERICAL    
+              22             144            130       SPHERICAL    
+              25             160            131       SPHERICAL    
+              33             204            132       SPHERICAL    
+              45             153            135       SPHERICAL    
+              28             180            164       SPHERICAL    
+              30             200            166       SPHERICAL    
+              34             208            168       SPHERICAL    
+              46             187            171       SPHERICAL    
+              19              73             77         CONVEL     
+              20              78             81         CONVEL     
+            5              67             13              CMOTION
+ ========================================================================
+ 
+         CONSTRAINT ID    JOINT1    JOINT2    JOINT3    TYPE
+ ========================================================================
+           46           23                          MOTION
+           64           32                          MOTION
+          122           61                          MOTION
+          136           68                          MOTION
+          137            6                          MOTION
+            1           14        13         0   COUPLER/GEAR 
+            2           18        15         0   COUPLER/GEAR 
+ ========================================================================
+ 
+ 
+ ========================================================================
+ *** WHAT = 
+ sim/dyn, end = 66, step = 6600                                                 
+  
+ ========================================================================
+ *** TOKEN SIMULATION TYPE = dyn
+ *** TOKEN ENDTIME =   66.0000000000000        1.00000000000000     
+ *** TOKEN PLOT STEPSIZE =        6600          30
+ 
+ ========================================================================
+ >> SEARCH DEPENDENT BODY
+ ========================================================================
+ 
+ ========================================================================
+ >> THE SIZE OF USED IBUS-ARRAY FOR DEPENDENT BODY =               85
+ ========================================================================
+ ========================================================================
+ >> THE SIZE OF USED RBUS-ARRAY FOR DEPENDENT BODY =             6369
+ ========================================================================
+ >>> SUCCESSFULLY SEARCHED DEPENDENT COORDINATES
+    Dense Solver for MBD           0
+ 
+ ========================================================================
+ >> POSITION ANALYSIS
+ ========================================================================
+ >>> POSITION-ANALYSIS IS SUCCESSFULLY FINISHED
+ ======================================================================== 
+ >>> System Variables After Position Analysis
+ 
+ ======================================================================== 
+ SEQ  TYPE                    NAME         DOF                    
+ ------------------------------------------------------------------------ 
+    1 FLOATING JOINT          100000001    TRANSLATION ALONG X            
+    2 FLOATING JOINT          100000001    TRANSLATION ALONG Y            
+    3 FLOATING JOINT          100000001    TRANSLATION ALONG Z            
+    4 FLOATING JOINT          100000001    ROTATION ABOUT X               
+    5 FLOATING JOINT          100000001    ROTATION ABOUT Y               
+    6 FLOATING JOINT          100000001    ROTATION ABOUT Z               
+    7 REVOLUTE JOINT                  6    ROTATION ABOUT Z               
+    8 REVOLUTE JOINT                 15    ROTATION ABOUT Z               
+    9 TRANSLATIONAL JOINT            13    TRANSLATION ALONG Z            
+   10 SPHERICAL JOINT                11    ROTATION ABOUT X               
+   11 SPHERICAL JOINT                11    ROTATION ABOUT Y               
+   12 SPHERICAL JOINT                11    ROTATION ABOUT Z               
+   13 UNIVERSAL JOINT                69    ROTATION ABOUT X BASE          
+   14 UNIVERSAL JOINT                69    ROTATION ABOUT X ACTION        
+   15 REVOLUTE JOINT                 62    ROTATION ABOUT Z               
+   16 SPHERICAL JOINT                12    ROTATION ABOUT X               
+   17 SPHERICAL JOINT                12    ROTATION ABOUT Y               
+   18 SPHERICAL JOINT                12    ROTATION ABOUT Z               
+   19 UNIVERSAL JOINT                70    ROTATION ABOUT X BASE          
+   20 UNIVERSAL JOINT                70    ROTATION ABOUT X ACTION        
+   21 REVOLUTE JOINT                 67    ROTATION ABOUT Z               
+   22 REVOLUTE JOINT                 14    ROTATION ABOUT Z               
+   23 CYLINDRICAL JOINT              18    TRANSLATION ALONG Z            
+   24 CYLINDRICAL JOINT              18    ROTATION ABOUT Z               
+   25 UNIVERSAL JOINT                35    ROTATION ABOUT X BASE          
+   26 UNIVERSAL JOINT                35    ROTATION ABOUT X ACTION        
+   27 SPHERICAL JOINT                21    ROTATION ABOUT X               
+   28 SPHERICAL JOINT                21    ROTATION ABOUT Y               
+   29 SPHERICAL JOINT                21    ROTATION ABOUT Z               
+   30 SPHERICAL JOINT                 3    ROTATION ABOUT X               
+   31 SPHERICAL JOINT                 3    ROTATION ABOUT Y               
+   32 SPHERICAL JOINT                 3    ROTATION ABOUT Z               
+   33 UNIVERSAL JOINT                55    ROTATION ABOUT X BASE          
+   34 UNIVERSAL JOINT                55    ROTATION ABOUT X ACTION        
+   35 REVOLUTE JOINT                 24    ROTATION ABOUT Z               
+   36 UNIVERSAL JOINT                36    ROTATION ABOUT X BASE          
+   37 UNIVERSAL JOINT                36    ROTATION ABOUT X ACTION        
+   38 SPHERICAL JOINT                29    ROTATION ABOUT X               
+   39 SPHERICAL JOINT                29    ROTATION ABOUT Y               
+   40 SPHERICAL JOINT                29    ROTATION ABOUT Z               
+   41 SPHERICAL JOINT                 4    ROTATION ABOUT X               
+   42 SPHERICAL JOINT                 4    ROTATION ABOUT Y               
+   43 SPHERICAL JOINT                 4    ROTATION ABOUT Z               
+   44 UNIVERSAL JOINT                56    ROTATION ABOUT X BASE          
+   45 UNIVERSAL JOINT                56    ROTATION ABOUT X ACTION        
+   46 REVOLUTE JOINT                 31    ROTATION ABOUT Z               
+   47 UNIVERSAL JOINT                37    ROTATION ABOUT X BASE          
+   48 UNIVERSAL JOINT                37    ROTATION ABOUT X ACTION        
+   49 UNIVERSAL JOINT                38    ROTATION ABOUT X BASE          
+   50 UNIVERSAL JOINT                38    ROTATION ABOUT X ACTION        
+   51 REVOLUTE JOINT                 39    ROTATION ABOUT Z               
+   52 REVOLUTE JOINT                 40    ROTATION ABOUT Z               
+   53 UNIVERSAL JOINT                41    ROTATION ABOUT X BASE          
+   54 UNIVERSAL JOINT                41    ROTATION ABOUT X ACTION        
+   55 UNIVERSAL JOINT                42    ROTATION ABOUT X BASE          
+   56 UNIVERSAL JOINT                42    ROTATION ABOUT X ACTION        
+   57 UNIVERSAL JOINT                43    ROTATION ABOUT X BASE          
+   58 UNIVERSAL JOINT                43    ROTATION ABOUT X ACTION        
+   59 CYLINDRICAL JOINT              23    TRANSLATION ALONG Z            
+   60 CYLINDRICAL JOINT              23    ROTATION ABOUT Z               
+   61 UNIVERSAL JOINT                44    ROTATION ABOUT X BASE          
+   62 UNIVERSAL JOINT                44    ROTATION ABOUT X ACTION        
+   63 CYLINDRICAL JOINT              32    TRANSLATION ALONG Z            
+   64 CYLINDRICAL JOINT              32    ROTATION ABOUT Z               
+   65 REVOLUTE JOINT                 73    ROTATION ABOUT Z               
+   66 UNIVERSAL JOINT                77    ROTATION ABOUT X BASE          
+   67 UNIVERSAL JOINT                77    ROTATION ABOUT X ACTION        
+   68 SPHERICAL JOINT                 9    ROTATION ABOUT X               
+   69 SPHERICAL JOINT                 9    ROTATION ABOUT Y               
+   70 SPHERICAL JOINT                 9    ROTATION ABOUT Z               
+   71 UNIVERSAL JOINT                49    ROTATION ABOUT X BASE          
+   72 UNIVERSAL JOINT                49    ROTATION ABOUT X ACTION        
+   73 CYLINDRICAL JOINT              61    TRANSLATION ALONG Z            
+   74 CYLINDRICAL JOINT              61    ROTATION ABOUT Z               
+   75 REVOLUTE JOINT                 74    ROTATION ABOUT Z               
+   76 UNIVERSAL JOINT                78    ROTATION ABOUT X BASE          
+   77 UNIVERSAL JOINT                78    ROTATION ABOUT X ACTION        
+   78 SPHERICAL JOINT                10    ROTATION ABOUT X               
+   79 SPHERICAL JOINT                10    ROTATION ABOUT Y               
+   80 SPHERICAL JOINT                10    ROTATION ABOUT Z               
+   81 UNIVERSAL JOINT                50    ROTATION ABOUT X BASE          
+   82 UNIVERSAL JOINT                50    ROTATION ABOUT X ACTION        
+   83 CYLINDRICAL JOINT              68    TRANSLATION ALONG Z            
+   84 CYLINDRICAL JOINT              68    ROTATION ABOUT Z               
+   85 REVOLUTE JOINT                 75    ROTATION ABOUT Z               
+   86 REVOLUTE JOINT                 76    ROTATION ABOUT Z               
+   87 FLOATING JOINT          100000002    TRANSLATION ALONG X            
+   88 FLOATING JOINT          100000002    TRANSLATION ALONG Y            
+   89 FLOATING JOINT          100000002    TRANSLATION ALONG Z            
+   90 FLOATING JOINT          100000002    ROTATION ABOUT X               
+   91 FLOATING JOINT          100000002    ROTATION ABOUT Y               
+   92 FLOATING JOINT          100000002    ROTATION ABOUT Z               
+   93 FLOATING JOINT          100000003    TRANSLATION ALONG X            
+   94 FLOATING JOINT          100000003    TRANSLATION ALONG Y            
+   95 FLOATING JOINT          100000003    TRANSLATION ALONG Z            
+   96 FLOATING JOINT          100000003    ROTATION ABOUT X               
+   97 FLOATING JOINT          100000003    ROTATION ABOUT Y               
+   98 FLOATING JOINT          100000003    ROTATION ABOUT Z               
+   99 FLOATING JOINT          100000004    TRANSLATION ALONG X            
+  100 FLOATING JOINT          100000004    TRANSLATION ALONG Y            
+  101 FLOATING JOINT          100000004    TRANSLATION ALONG Z            
+  102 FLOATING JOINT          100000004    ROTATION ABOUT X               
+  103 FLOATING JOINT          100000004    ROTATION ABOUT Y               
+  104 FLOATING JOINT          100000004    ROTATION ABOUT Z               
+  105 FLOATING JOINT          100000005    TRANSLATION ALONG X            
+  106 FLOATING JOINT          100000005    TRANSLATION ALONG Y            
+  107 FLOATING JOINT          100000005    TRANSLATION ALONG Z            
+  108 FLOATING JOINT          100000005    ROTATION ABOUT X               
+  109 FLOATING JOINT          100000005    ROTATION ABOUT Y               
+  110 FLOATING JOINT          100000005    ROTATION ABOUT Z               
+  111 FLOATING JOINT          100000006    TRANSLATION ALONG X            
+  112 FLOATING JOINT          100000006    TRANSLATION ALONG Y            
+  113 FLOATING JOINT          100000006    TRANSLATION ALONG Z            
+  114 FLOATING JOINT          100000006    ROTATION ABOUT X               
+  115 FLOATING JOINT          100000006    ROTATION ABOUT Y               
+  116 FLOATING JOINT          100000006    ROTATION ABOUT Z               
+  117 FLOATING JOINT          100000007    TRANSLATION ALONG X            
+  118 FLOATING JOINT          100000007    TRANSLATION ALONG Y            
+  119 FLOATING JOINT          100000007    TRANSLATION ALONG Z            
+  120 FLOATING JOINT          100000007    ROTATION ABOUT X               
+  121 FLOATING JOINT          100000007    ROTATION ABOUT Y               
+  122 FLOATING JOINT          100000007    ROTATION ABOUT Z               
+  123 FLOATING JOINT          100000008    TRANSLATION ALONG X            
+  124 FLOATING JOINT          100000008    TRANSLATION ALONG Y            
+  125 FLOATING JOINT          100000008    TRANSLATION ALONG Z            
+  126 FLOATING JOINT          100000008    ROTATION ABOUT X               
+  127 FLOATING JOINT          100000008    ROTATION ABOUT Y               
+  128 FLOATING JOINT          100000008    ROTATION ABOUT Z               
+  129 FLOATING JOINT          100000009    TRANSLATION ALONG X            
+  130 FLOATING JOINT          100000009    TRANSLATION ALONG Y            
+  131 FLOATING JOINT          100000009    TRANSLATION ALONG Z            
+  132 FLOATING JOINT          100000009    ROTATION ABOUT X               
+  133 FLOATING JOINT          100000009    ROTATION ABOUT Y               
+  134 FLOATING JOINT          100000009    ROTATION ABOUT Z               
+  135 FLOATING JOINT          100000010    TRANSLATION ALONG X            
+  136 FLOATING JOINT          100000010    TRANSLATION ALONG Y            
+  137 FLOATING JOINT          100000010    TRANSLATION ALONG Z            
+  138 FLOATING JOINT          100000010    ROTATION ABOUT X               
+  139 FLOATING JOINT          100000010    ROTATION ABOUT Y               
+  140 FLOATING JOINT          100000010    ROTATION ABOUT Z               
+  141 FLOATING JOINT          100000011    TRANSLATION ALONG X            
+  142 FLOATING JOINT          100000011    TRANSLATION ALONG Y            
+  143 FLOATING JOINT          100000011    TRANSLATION ALONG Z            
+  144 FLOATING JOINT          100000011    ROTATION ABOUT X               
+  145 FLOATING JOINT          100000011    ROTATION ABOUT Y               
+  146 FLOATING JOINT          100000011    ROTATION ABOUT Z               
+  147 FLOATING JOINT          100000012    TRANSLATION ALONG X            
+  148 FLOATING JOINT          100000012    TRANSLATION ALONG Y            
+  149 FLOATING JOINT          100000012    TRANSLATION ALONG Z            
+  150 FLOATING JOINT          100000012    ROTATION ABOUT X               
+  151 FLOATING JOINT          100000012    ROTATION ABOUT Y               
+  152 FLOATING JOINT          100000012    ROTATION ABOUT Z               
+  153 FLOATING JOINT          100000013    TRANSLATION ALONG X            
+  154 FLOATING JOINT          100000013    TRANSLATION ALONG Y            
+  155 FLOATING JOINT          100000013    TRANSLATION ALONG Z            
+  156 FLOATING JOINT          100000013    ROTATION ABOUT X               
+  157 FLOATING JOINT          100000013    ROTATION ABOUT Y               
+  158 FLOATING JOINT          100000013    ROTATION ABOUT Z               
+  159 FLOATING JOINT          100000014    TRANSLATION ALONG X            
+  160 FLOATING JOINT          100000014    TRANSLATION ALONG Y            
+  161 FLOATING JOINT          100000014    TRANSLATION ALONG Z            
+  162 FLOATING JOINT          100000014    ROTATION ABOUT X               
+  163 FLOATING JOINT          100000014    ROTATION ABOUT Y               
+  164 FLOATING JOINT          100000014    ROTATION ABOUT Z               
+  165 FLOATING JOINT          100000015    TRANSLATION ALONG X            
+  166 FLOATING JOINT          100000015    TRANSLATION ALONG Y            
+  167 FLOATING JOINT          100000015    TRANSLATION ALONG Z            
+  168 FLOATING JOINT          100000015    ROTATION ABOUT X               
+  169 FLOATING JOINT          100000015    ROTATION ABOUT Y               
+  170 FLOATING JOINT          100000015    ROTATION ABOUT Z               
+  171 FLOATING JOINT          100000016    TRANSLATION ALONG X            
+  172 FLOATING JOINT          100000016    TRANSLATION ALONG Y            
+  173 FLOATING JOINT          100000016    TRANSLATION ALONG Z            
+  174 FLOATING JOINT          100000016    ROTATION ABOUT X               
+  175 FLOATING JOINT          100000016    ROTATION ABOUT Y               
+  176 FLOATING JOINT          100000016    ROTATION ABOUT Z               
+  177 SPHERICAL CONSTRAINT           80    TRANSLATION ALONG X            
+  178 SPHERICAL CONSTRAINT           80    TRANSLATION ALONG Y            
+  179 SPHERICAL CONSTRAINT           80    TRANSLATION ALONG Z            
+  180 SPHERICAL CONSTRAINT           79    TRANSLATION ALONG X            
+  181 SPHERICAL CONSTRAINT           79    TRANSLATION ALONG Y            
+  182 SPHERICAL CONSTRAINT           79    TRANSLATION ALONG Z            
+  183 SPHERICAL CONSTRAINT           59    TRANSLATION ALONG X            
+  184 SPHERICAL CONSTRAINT           59    TRANSLATION ALONG Y            
+  185 SPHERICAL CONSTRAINT           59    TRANSLATION ALONG Z            
+  186 SPHERICAL CONSTRAINT           60    TRANSLATION ALONG X            
+  187 SPHERICAL CONSTRAINT           60    TRANSLATION ALONG Y            
+  188 SPHERICAL CONSTRAINT           60    TRANSLATION ALONG Z            
+  189 SPHERICAL CONSTRAINT           65    TRANSLATION ALONG X            
+  190 SPHERICAL CONSTRAINT           65    TRANSLATION ALONG Y            
+  191 SPHERICAL CONSTRAINT           65    TRANSLATION ALONG Z            
+  192 SPHERICAL CONSTRAINT           66    TRANSLATION ALONG X            
+  193 SPHERICAL CONSTRAINT           66    TRANSLATION ALONG Y            
+  194 SPHERICAL CONSTRAINT           66    TRANSLATION ALONG Z            
+  195 SPHERICAL CONSTRAINT           22    TRANSLATION ALONG X            
+  196 SPHERICAL CONSTRAINT           22    TRANSLATION ALONG Y            
+  197 SPHERICAL CONSTRAINT           22    TRANSLATION ALONG Z            
+  198 SPHERICAL CONSTRAINT           25    TRANSLATION ALONG X            
+  199 SPHERICAL CONSTRAINT           25    TRANSLATION ALONG Y            
+  200 SPHERICAL CONSTRAINT           25    TRANSLATION ALONG Z            
+  201 SPHERICAL CONSTRAINT           33    TRANSLATION ALONG X            
+  202 SPHERICAL CONSTRAINT           33    TRANSLATION ALONG Y            
+  203 SPHERICAL CONSTRAINT           33    TRANSLATION ALONG Z            
+  204 SPHERICAL CONSTRAINT           45    TRANSLATION ALONG X            
+  205 SPHERICAL CONSTRAINT           45    TRANSLATION ALONG Y            
+  206 SPHERICAL CONSTRAINT           45    TRANSLATION ALONG Z            
+  207 SPHERICAL CONSTRAINT           28    TRANSLATION ALONG X            
+  208 SPHERICAL CONSTRAINT           28    TRANSLATION ALONG Y            
+  209 SPHERICAL CONSTRAINT           28    TRANSLATION ALONG Z            
+  210 SPHERICAL CONSTRAINT           30    TRANSLATION ALONG X            
+  211 SPHERICAL CONSTRAINT           30    TRANSLATION ALONG Y            
+  212 SPHERICAL CONSTRAINT           30    TRANSLATION ALONG Z            
+  213 SPHERICAL CONSTRAINT           34    TRANSLATION ALONG X            
+  214 SPHERICAL CONSTRAINT           34    TRANSLATION ALONG Y            
+  215 SPHERICAL CONSTRAINT           34    TRANSLATION ALONG Z            
+  216 SPHERICAL CONSTRAINT           46    TRANSLATION ALONG X            
+  217 SPHERICAL CONSTRAINT           46    TRANSLATION ALONG Y            
+  218 SPHERICAL CONSTRAINT           46    TRANSLATION ALONG Z            
+  219 CONVEL CONSTRAINT              19    TRANSLATION ALONG X            
+  220 CONVEL CONSTRAINT              19    TRANSLATION ALONG Y            
+  221 CONVEL CONSTRAINT              19    TRANSLATION ALONG Z            
+  222 CONVEL CONSTRAINT              19    ROTATIONAL VELOCITY            
+  223 CONVEL CONSTRAINT              20    TRANSLATION ALONG X            
+  224 CONVEL CONSTRAINT              20    TRANSLATION ALONG Y            
+  225 CONVEL CONSTRAINT              20    TRANSLATION ALONG Z            
+  226 CONVEL CONSTRAINT              20    ROTATIONAL VELOCITY            
+  227 CMOTION CONSTRAINT              5    ROTATION ABOUT Z               
+  228 MOTION CONSTRAINT              46    JOINT /        23              
+  229 MOTION CONSTRAINT              64    JOINT /        32              
+  230 MOTION CONSTRAINT             122    JOINT /        61              
+  231 MOTION CONSTRAINT             136    JOINT /        68              
+  232 MOTION CONSTRAINT             137    JOINT /         6              
+  233 COUPLER CONSTRAINT              1                                   
+  234 COUPLER CONSTRAINT              2                                   
+  235 VARIABLE EQUATION               1                                   
+  236 VARIABLE EQUATION               2                                   
+  237 VARIABLE EQUATION               3                                   
+  238 DIFFERENTIAL EQUATION           1                                   
+ 
+ ========================================================================
+ >> VELOCITY ANALYSIS
+ ========================================================================
+ >>> VELOCITY-ANALYSIS IS SUCCESSFULLY FINISHED
+ 
+ ========================================================================
+ >> ACCELERATION ANALYSIS
+ ========================================================================
+ >>> ACCELERATION-ANALYSIS IS SUCCESSFULLY FINISHED
+ 
+ ========================================================================
+ ** USED MAXIMUM ARRAY WITH RPT DATABASE           =             4503
+ ========================================================================
+ ========================================================================
+ ** USED ARRAY WITH RPT DATABASE                   =               96
+ ========================================================================
+ 
+ ========================================================================
+ ** USED MAXIMUM ARRAY WITH RPT DATABASE           =             4503
+ ========================================================================
+ ========================================================================
+ ** USED ARRAY WITH RPT DATABASE                   =             3501
+ ========================================================================
+ 
+                 ADVANCED HYBRID IMPLICIT INTEGRATOR INFORMATION
+ ========================================================================
+         NUMERICAL DAMPING     =    1.00000E+00
+         RHO INFINITE          =    0.00000E+00
+         ALPHAF AND ALPHAM     =    0.00000E+00   -1.00000E+00
+         BETA AND GAMMA        =    1.00000E+00    1.50000E+00
+ ========================================================================
+ Number of Flex Jacobian =           0
+ Number of SymFac MBD =           0
+ 
+ ========================================================================
+ *** WHAT = 
+ stop                                                                           
+  
+ ========================================================================
+ !!! STOP MESSAGE IN THE SIMULATION COMMAND !!!
+ 
+ ========================================================================
+ >> RD/SOLVER-PROCESSING IS SUCCESSFULLY FINISHED
+ ========================================================================
+ >>> SUCCESSFULLY MADE THE OUTPUT FILES
